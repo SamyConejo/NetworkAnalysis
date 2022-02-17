@@ -10,6 +10,7 @@ def net_analysis():
     pat = './combinedFiles/'
     directory = pathlib.Path(pat)
     #Especifica el dominio a analizar
+
     dominios = ['Google']
     classC = IPv4Network(("192.168.0.0", "255.255.0.0"))
     dom_map['127.0.0.1'] = 'Base'
