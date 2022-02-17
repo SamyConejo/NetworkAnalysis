@@ -1,7 +1,7 @@
 from ipwhois import IPWhois, IPDefinedError, ASNRegistryError, WhoisLookupError
 
 
-#Modificada por Samy Conejo
+#Modified by Samy Conejo
 
 def whois_lookup(ip_address):
     whois = None
